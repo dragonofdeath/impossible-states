@@ -16,19 +16,28 @@ export const useMyState = (): [State, () => void] => {
     });
 
     const load = () => {
-        setState((prevState) => ({ ...prevState, isLoading: true }));
+        setState((prevState) => ({
+            ...prevState,
+            isInitial: false,
+            isError: false,
+            isLoading: true,
+        }));
         return fetchStuff()
             .then((result) =>
                 setState((prevState) => ({
                     ...prevState,
+                    isError: false,
+                    errorMessage: undefined,
                     isLoading: true,
                     myData: result,
                 }))
             )
             .catch(() => {
                 setState((prevState) => ({
-                    ...prevState,
                     isError: true,
+                    myData: undefined,
+                    isLoading: false,
+                    isInitial: false,
                     errorMessage: 'Sorry..',
                 }));
             });

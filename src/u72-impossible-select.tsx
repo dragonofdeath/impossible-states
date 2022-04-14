@@ -12,7 +12,7 @@ export const MyApp = () => {
     return (
         <Select
             value={val}
-            onChange={(v) => setVal(v as string)}
+            onChange={(v) => setVal(v)}
             options={['op1', 'op2']}
         />
     );

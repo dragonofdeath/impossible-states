@@ -7,7 +7,7 @@ type U = A | B;
 
 // return a for A and b.length for B
 export function numerize(obj: U): number {
-    if ('a' in obj) {
+    if (obj.tag === 'A') {
         return obj.a;
     }
     obj; // U - A = Type B
@@ -15,4 +15,4 @@ export function numerize(obj: U): number {
 }
 
 const obj = { b: 'hello', a: undefined, tag: 'B' as const };
-numerize(obj); // NOOOOOOOOOOOOOOOO!!!!
+numerize(obj); // YEASSSSSSSSS!!!!

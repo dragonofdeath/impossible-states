@@ -8,9 +8,6 @@ declare const Alert: React.FC<{
 
 export const MyApp = () => {
     return (
-        <Alert warning danger>
-            {' '}
-            It worked!{' '}
-        </Alert>
+        <Alert success>It worked!</Alert>
     );
 };

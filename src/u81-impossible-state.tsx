@@ -1,13 +1,11 @@
-import React from 'react';
+import { Button, MyData, MyDataView, Spinner } from './impossible-state-utils';
 
-type State = {
+declare const useMyState: () => {
+    fetch: () => void;
     myData?: MyData;
     isLoading: boolean;
     isInitial: boolean;
-    fetch: () => void;
 };
-
-declare const useMyState: () => State;
 
 export const MyApp = () => {
     const { myData, fetch, isLoading, isInitial } = useMyState();
@@ -20,31 +18,3 @@ export const MyApp = () => {
         </div>
     );
 };
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-type MyData = { items: string[] };
-declare const fetchStuff: () => Promise<MyData>;
-declare const MyDataView: React.FC<{ data: MyData }>;
-declare const Spinner: React.FC<{}>;
-declare const Button: React.FC<{ onClick: () => void }>;

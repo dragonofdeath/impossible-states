@@ -1,11 +1,10 @@
-import React from 'react';
+import { Button, MyData, MyDataView, Spinner, unreachable } from './impossible-state-utils';
 
 type State =
-    | { type: 'INITIAL' }
-    | { type: 'READY'; myData: MyData }
-    | { type: 'LOADING' }
-    | { type: 'ERROR'; message: string };
-
+    | { tag: 'INITIAL' }
+    | { tag: 'READY'; myData: MyData }
+    | { tag: 'LOADING' }
+    | { tag: 'ERROR'; message: string };
 declare const useMyState: () => [State, () => void];
 
 export const MyApp = () => {
@@ -14,7 +13,7 @@ export const MyApp = () => {
         <div>
             <Button onClick={fetch}>Fetch</Button>
             {(() => {
-                switch (state.type) {
+                switch (state.tag) {
                     case 'INITIAL':
                         return 'Click to fetch';
                     case 'READY':
@@ -30,34 +29,3 @@ export const MyApp = () => {
         </div>
     );
 };
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-type MyData = { items: string[] };
-declare const fetchStuff: () => Promise<MyData>;
-declare const MyDataView: React.FC<{ data: MyData }>;
-declare const Spinner: React.FC<{}>;
-declare const Button: React.FC<{ onClick: () => void }>;
-function unreachable(n: never) {
-    return new Error(n);
-}

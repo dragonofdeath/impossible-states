@@ -1,4 +1,4 @@
-// Lets EXHAUST THEM!!!!!
+// Lets EXHAUST THEM till its never!!!!!
 
 type A = { tag: 'A'; a: number };
 type B = { tag: 'B'; b: string };
@@ -11,6 +11,11 @@ export function numerize(obj: U): number {
     if (obj.tag === 'A') {
         return obj.a;
     }
-    obj; // U - A = Type B | C
-    return obj.b.length;
+    if (obj.tag === 'B') {
+        return obj.b.length;
+    }
+    if (obj.tag === 'C') {
+        return obj.b.length * 2;
+    }
+    return obj;
 }

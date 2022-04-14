@@ -42,7 +42,7 @@
     ],
     "rules": {
       "no-unused-expressions": 0,
-      "prettier/prettier": "warn",
+      "prettier/prettier": "off",
       "@typescript-eslint/no-unused-expressions": 0,
       "@typescript-eslint/no-unused-vars": 0
     }

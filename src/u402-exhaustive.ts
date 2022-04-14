@@ -1,4 +1,4 @@
-// Lets EXHAUST THEM!!!!!
+// Lets EXHAUST THEM till its never and add runtime check!!!!!
 
 type A = { tag: 'A'; a: number };
 type B = { tag: 'B'; b: string };
@@ -11,6 +11,15 @@ export function numerize(obj: U): number {
     if (obj.tag === 'A') {
         return obj.a;
     }
-    obj; // U - A = Type B | C
-    return obj.b.length;
+    if (obj.tag === 'B') {
+        return obj.b.length;
+    }
+    if (obj.tag === 'C') {
+        return obj.b.length * 2;
+    }
+    throw unreachable(obj);
+}
+
+function unreachable(n: never) {
+    return new Error(n);
 }

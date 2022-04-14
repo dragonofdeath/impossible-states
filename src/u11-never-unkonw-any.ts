@@ -1,13 +1,13 @@
 // NEVER ANY UNKONWN
 
-declare const never: never;
-declare const unknown: unknown;
-declare const any: any;
+declare const neverVar: never;
+declare const unknownVar: unknown;
+declare const anyVar: any;
 
-let num: number;
-num = never;
-num = unknown;
-num = any;
+let numVar: number;
+numVar = neverVar;
+numVar = unknownVar;
+numVar = anyVar;
 
 // never =~= 0
 // unknow =~= infinity
@@ -37,4 +37,4 @@ num = any;
 //
 //
 //
-export { num };
+export { numVar as num };

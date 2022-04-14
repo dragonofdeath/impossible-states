@@ -1,7 +1,7 @@
-// LET'S DISCRIMINATE THEM!!!!!!!!!!
+// UNIONS OF OBJECTS
 
-type A = { tag: 'A'; a: number };
-type B = { tag: 'B'; b: string };
+type A = { a: number };
+type B = { b: string };
 
 type U = A | B;
 
@@ -14,5 +14,5 @@ export function numerize(obj: U): number {
     return obj.b.length;
 }
 
-const obj = { b: 'hello', a: undefined, tag: 'B' as const };
+const obj = { b: 'hello', a: undefined };
 numerize(obj); // NOOOOOOOOOOOOOOOO!!!!

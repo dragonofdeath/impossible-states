@@ -1,59 +1,25 @@
 // Lets EXHAUST THEM WITH SWITCH!!!!!
 
-type A = { tag: 'number'; payload: number };
+type A = { tag: 'A'; a: number };
+type B = { tag: 'B'; b: string };
+type C = { tag: 'C'; b: Array<string> };
 
-type B = { tag: 'string'; payload: string };
+type U = A | B | C;
 
-type C = { tag: 'boolean'; payload: boolean };
-
-type D = { tag: 'array'; payload: Array<number> };
-
-type U = A | B | C | D;
-
-function numerize({ tag, payload }: U): number {
-    switch (tag) {
-        case 'number':
-            return payload;
-        case 'boolean':
-            return payload ? 1 : 0;
-        case 'string':
-            return payload.length;
-        case 'array':
-            return payload[0] ?? 0;
+// return a for A and b.length for B and b.length*2 for C
+export function numerize(obj: U): number {
+    switch (obj.tag) {
+        case 'A':
+            return obj.a;
+        case 'B':
+            return obj.b.length;
+        case 'C':
+            return obj.b.length * 2;
         default:
-            throw unreachable(payload);
+            throw unreachable(obj);
     }
 }
 
 function unreachable(n: never) {
     return new Error(n);
 }
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-export { numerize as numberize };
