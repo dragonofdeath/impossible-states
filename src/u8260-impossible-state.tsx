@@ -1,5 +1,3 @@
-import { MyData } from './impossible-state-utils';
-
 /* Complexity
  __    __
 /  |  /  |
@@ -17,4 +15,3 @@ export type StateClassic = {
 } & {
     myData?: MyData;
 };
-

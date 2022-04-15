@@ -1,5 +1,3 @@
-import { Button, MyData, MyDataView, Spinner } from './impossible-state-utils';
-
 declare const useMyState: () => {
     fetch: () => void;
     myData?: MyData;

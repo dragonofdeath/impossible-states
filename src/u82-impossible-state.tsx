@@ -1,5 +1,3 @@
-import { Button, MyData, MyDataView, Spinner } from './impossible-state-utils';
-
 declare const useMyState: () => {
     fetch: () => void;
     myData?: MyData;
@@ -7,9 +5,7 @@ declare const useMyState: () => {
     isInitial: boolean;
     isError: boolean;
     errorMessage?: string;
-};
-// State has 2^5=32 pssible combinations: how many variations human mind
-// can work with?
+}; // How many variations of this can I have?
 
 export const MyApp = () => {
     const { myData, isLoading, isInitial, isError, errorMessage, fetch } =

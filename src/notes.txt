@@ -3,3 +3,8 @@ https://patorjk.com/software/taag/#p=display&f=Big%20Money-sw&t=32
 
 Header font
 https://patorjk.com/software/taag/#p=display&f=Big&t=impossible
+
+Ascii art https://www.asciiart.eu/movies/other
+
+TODO: 
+* global variables instead of imports?

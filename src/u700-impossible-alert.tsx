@@ -1,5 +1,3 @@
-import React from 'react';
-
 declare const Alert: React.FC<{
     success?: boolean;
     warning?: boolean;
@@ -7,7 +5,5 @@ declare const Alert: React.FC<{
 }>;
 
 export const MyApp = () => {
-    return (
-        <Alert success>It worked!</Alert>
-    );
+    return <Alert success>It worked!</Alert>;
 };

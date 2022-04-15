@@ -17,5 +17,5 @@ export function numerize(obj: U): number {
     if (obj.tag === 'C') {
         return obj.b.length * 2;
     }
-    return obj;
+    return obj; // kinda ok, but in runtime we could do better
 }

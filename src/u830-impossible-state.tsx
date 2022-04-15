@@ -1,5 +1,3 @@
-import { Button, MyData, MyDataView, Spinner, unreachable } from './impossible-state-utils';
-
 type State =
     | { tag: 'INITIAL' }
     | { tag: 'READY'; myData: MyData }

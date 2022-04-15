@@ -4,7 +4,7 @@ type A = { tag: 'A'; a: number };
 type B = { tag: 'B'; b: string };
 type C = { tag: 'C'; b: Array<string> };
 
-type U = A | B | C;
+type U = A | B | C | { tag: 'D' };
 
 // return a for A and b.length for B and b.length*2 for C
 export function numerize(obj: U): number {

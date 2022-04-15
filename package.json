@@ -43,6 +43,7 @@
     "rules": {
       "no-unused-expressions": 0,
       "prettier/prettier": "off",
+      "react/jsx-no-undef": "off",
       "@typescript-eslint/no-unused-expressions": 0,
       "@typescript-eslint/no-unused-vars": 0
     }

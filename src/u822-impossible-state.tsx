@@ -1,5 +1,3 @@
-import { MyData } from './impossible-state-utils';
-
 // LET'S REFACTOR TO SUM TYPES!
 
 export type StateClassic = {

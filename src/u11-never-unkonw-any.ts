@@ -1,40 +1,9 @@
 // NEVER ANY UNKONWN
 
-declare const neverVar: never;
-declare const unknownVar: unknown;
-declare const anyVar: any;
+declare let neverVar: never;
 
-let numVar: number;
-numVar = neverVar;
-numVar = unknownVar;
-numVar = anyVar;
+let otherVar1: number = neverVar;
 
-// never =~= 0
-// unknow =~= infinity
-// any === 🍌
+neverVar = otherVar1;
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-export { numVar as num };
+// never ~ 0

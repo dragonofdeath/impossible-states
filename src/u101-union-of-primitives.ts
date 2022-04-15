@@ -8,13 +8,16 @@ export function numerize(value: Primitive): number {
         return value;
     }
     value; // Primitive - number = string | boolean;
+
     if (typeof value === 'string') {
         return value.length;
     }
     value; // Primitive - number - string = boolean;
+
     if (typeof value === 'boolean') {
         return value ? 1 : 0;
     }
     value; // Primive - number - string - boolean = ?;
+
     // return value;
 }

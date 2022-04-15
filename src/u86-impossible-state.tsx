@@ -1,6 +1,6 @@
 type State =
     | { type: 'INITIAL' }
-    | { type: 'LOADING' }
+    | { type: 'LOADING'; requestId: number }
     | { type: 'READY'; myData: MyData }
     | { type: 'ERROR'; message: string };
 

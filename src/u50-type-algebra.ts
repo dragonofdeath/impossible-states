@@ -16,7 +16,3 @@ export function numerize(obj: U): number {
             throw unreachable(obj);
     }
 }
-
-function unreachable(n: never) {
-    return new Error(n);
-}

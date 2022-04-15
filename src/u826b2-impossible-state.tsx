@@ -1,5 +1,3 @@
-import { MyData } from './impossible-state-utils';
-
 /* Complexity
  __    __
 /  |  /  |

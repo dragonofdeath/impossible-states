@@ -6,13 +6,16 @@ export function numerizeAll(value: unknown): number {
         return value;
     }
     value;
+
     if (typeof value === 'string') {
         return value.length;
     }
     value;
+
     if (typeof value === 'boolean') {
         return value ? 1 : 0;
     }
     value;
+
     return value;
 }

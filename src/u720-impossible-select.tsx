@@ -1,10 +1,8 @@
-import React from 'react';
-
 declare const Select: React.FC<{
+    multi?: boolean;
     value: string | string[];
     onChange: (v: string | string[]) => void;
     options: string[];
-    multi?: boolean;
 }>;
 
 export const MyApp = () => {

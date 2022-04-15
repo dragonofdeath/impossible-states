@@ -1,5 +1,3 @@
-import React from 'react';
-
 declare const Alert: React.FC<{
     type: 'success' | 'warning' | 'boolean';
 }>;
