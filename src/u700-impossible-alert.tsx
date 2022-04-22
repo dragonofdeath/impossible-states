@@ -5,5 +5,5 @@ declare const Alert: React.FC<{
 }>;
 
 export const MyApp = () => {
-    return <Alert success>It worked!</Alert>;
+    return <Alert>It worked!</Alert>;
 };

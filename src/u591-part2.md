@@ -1,6 +1,6 @@
 #PART2: "HOW ALL OF THIS IS USEFULL?" OR "MAKING IMPOSSIBLE STATES IMPOSSIBLE"
 
-The idea is not new, but not popular enought in typescript community.
+The idea is not new, but not popular enough in typescript community.
 
 Nice videos with more thorough examples in different languages but totally doable in typescript!!!!!
 
@@ -21,5 +21,3 @@ https://www.youtube.com/watch?v=Up7LcbGZFuo
 
 "Make Data Structures" by Richard Feldman (Elm)
 https://www.youtube.com/watch?v=x1FU3e0sT1I
-
-*Go check these guys, they explain the problem much better than me. But for now the only thing you have so letscontinue*

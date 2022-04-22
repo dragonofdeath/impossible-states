@@ -1,4 +1,4 @@
-// MOST PRIMIVE UNION: UNION OF PRIMITIVES
+// MOST PRIMITIVE UNION: UNION OF PRIMITIVES
 
 type Primitive = number | string | boolean;
 
@@ -19,5 +19,5 @@ export function numerize(value: Primitive): number {
     }
     value; // Primive - number - string - boolean = ?;
 
-    // return value;
+    return 0;
 }

@@ -14,7 +14,7 @@ export const useMyState = (): State & { fetch: () => void } => {
     });
 
     const fetch = () => {
-        setState((prevState) => ({ ...prevState, isLoading: true }));
+        setState((prevState) => ({ ...prevState, isLoading: true, isInitial: false }));
         return fetchStuff()
             .then((result) =>
                 setState((prevState) => ({

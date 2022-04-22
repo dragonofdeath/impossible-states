@@ -1,9 +1,18 @@
-// NEVER ANY UNKONWN
+/*                _
+                 | |
+      _   _ _ __ | | ___ __   _____      ___ __
+     | | | | '_ \| |/ / '_ \ / _ \ \ /\ / / '_ \
+     | |_| | | | |   <| | | | (_) \ V  V /| | | |
+      \__,_|_| |_|_|\_\_| |_|\___/ \_/\_/ |_| |_|
+*/
 
 declare let unknownVar: unknown;
 
-let otherVar2: number = unknownVar;
+export let otherVar: number = unknownVar;
 
-unknownVar = otherVar2;
+unknownVar = otherVar;
+
+export type U = number | unknown;
+export type I = number & unknown;
 
 // unknow ~ infinity

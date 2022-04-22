@@ -1,9 +1,18 @@
-// NEVER ANY UNKONWN
+/*
+
+      _ __   _____   _____ _ __
+     | '_ \ / _ \ \ / / _ \ '__|
+     | | | |  __/\ V /  __/ |
+     |_| |_|\___| \_/ \___|_|
+*/
 
 declare let neverVar: never;
 
-let otherVar1: number = neverVar;
+export let otherVar: number = neverVar;
 
-neverVar = otherVar1;
+neverVar = otherVar;
+
+export type Union = number | never
+export type Intersection = number & never
 
 // never ~ 0

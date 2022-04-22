@@ -11,7 +11,7 @@ export const MyApp = () => {
             <Button onClick={fetch}>Fetch</Button>
             {myData && <MyDataView data={myData} />}
             {isLoading && <Spinner />}
-            {/* what if thre is no data and it's not loading? */}
+            {/* what if there is no data and it's not loading? */}
             {/* what if there is data and its loading? */}
         </div>
     );
