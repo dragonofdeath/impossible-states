@@ -1,4 +1,4 @@
-#PART2: "HOW ALL OF THIS IS USEFULL?" OR "MAKING IMPOSSIBLE STATES IMPOSSIBLE"
+#PART2: "HOW ALL OF THIS IS USEFUL?" OR "MAKING IMPOSSIBLE STATES IMPOSSIBLE"
 
 The idea is not new, but not popular enough in typescript community.
 

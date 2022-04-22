@@ -1,4 +1,4 @@
-#PART2: "HOW ALL OF THIS IS USEFULL?" OR "MAKING IMPOSSIBLE STATES IMPOSSIBLE"
+#PART2: "HOW ALL OF THIS IS USEFUL?" OR "MAKING IMPOSSIBLE STATES IMPOSSIBLE"
 
 ## Unions | sum types helps to structure the state with bigger precision, thus limiting invalid variations
 
@@ -8,7 +8,7 @@ Pros
 * Better API's
 * Better state management
 * Encoding business rules into type system
-* Making mini DSL's for control flows
+* Making mini DSLs for control flows
 
 Cons
 * A bit more verbose
