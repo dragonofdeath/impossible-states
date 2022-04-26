@@ -15,7 +15,7 @@ export const MyApp = () => {
             <Button onClick={fetch}>Fetch</Button>
             {!isLoading && isError && errorMessage ? errorMessage : null}
             {!isLoading && isInitial && 'Click to fetch'}
-            {!isLoading && !isError && myData && <MyDataView data={myData} />}
+            {!isLoading && !isError && !isInitial && myData && <MyDataView data={myData} />}
             {isLoading && <Spinner />}
         </div>
     );

@@ -1,4 +1,4 @@
-// Lets EXHAUST THEM!!!!!
+// Let's EXHAUST THEM!!!!!
 
 type A = { tag: 'A'; a: number };
 type B = { tag: 'B'; b: string };

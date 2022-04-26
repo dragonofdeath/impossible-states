@@ -14,5 +14,4 @@ export function numerize(obj: U): number {
     return obj.b.length;
 }
 
-const obj = { a: 7 };
-numerize(obj); // IT WORKS!
+numerize({ a: 7 }); // OK

@@ -10,8 +10,8 @@ export const MyApp = () => {
     return (
         <div>
             <Button onClick={fetch}>Fetch</Button>
-            {!isLoading && isInitial && 'Click to fetch'}
-            {!isLoading && myData && <MyDataView data={myData} />}
+            {isInitial && 'Click to fetch'}
+            {myData && <MyDataView data={myData} />}
             {isLoading && <Spinner />}
         </div>
     );

@@ -1,4 +1,4 @@
-// Lets EXHAUST THEM till its never and add runtime check!!!!!
+// Lets EXHAUST THEM till its never and add the runtime check!!!!!
 
 type A = { tag: 'A'; a: number };
 type B = { tag: 'B'; b: string };

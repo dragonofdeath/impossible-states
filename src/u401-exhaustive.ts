@@ -1,4 +1,4 @@
-// Lets EXHAUST THEM till its never!!!!!
+// Let's EXHAUST THEM till its never!!!!!
 
 type A = { tag: 'A'; a: number };
 type B = { tag: 'B'; b: string };

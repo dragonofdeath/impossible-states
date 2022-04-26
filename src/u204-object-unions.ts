@@ -14,5 +14,6 @@ export function numerize(obj: U): number {
     return obj.b.length;
 }
 
-const obj = { b: 'hello', a: undefined };
-numerize(obj); // NOOOOOOOOOOOOOOOO!!!!
+numerize({ a: 7 }); // OK
+numerize({ b: 'hello' }); // OK
+numerize({ b: 'hello', a: undefined }); // NOOOOOOOOOOOOOOOO!!!!

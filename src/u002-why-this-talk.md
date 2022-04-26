@@ -9,14 +9,16 @@
                  |___/
 ```
 
-       * to spread the idea - it doesn't get enough exposure compared to its
-         value
+       * The main goal of this presentation is to spread the idea expressed in
+         its title. I believe that it doesn't get enough exposure compared to
+         its value
 
-       * also there is information about it but more in other languages, but
-         not so much in typescript
+       * Though there is some information about it but more in other languages, and
+         very little in typescript
 
-       * the core idea is to model your state/API's/or any other data in a way
-         it would be impossible to do a mistake. As the result you get:
+       * The core idea is to model your state/API's/or any other data in a way
+         it would be impossible to do a mistake while using it. As the result
+         you get:
            + less variations/less complexity to think about
            + less test needed
            + less bugs

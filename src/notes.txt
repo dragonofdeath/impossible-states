@@ -5,10 +5,3 @@ Header font
 https://patorjk.com/software/taag/#p=display&f=Big&t=impossible
 
 Ascii art https://www.asciiart.eu/movies/other
-
-TODO: 
-* maybe a slide about objects and itersections?
-* maybe mix examples with theory
-* clearer separation between contexts
-
-

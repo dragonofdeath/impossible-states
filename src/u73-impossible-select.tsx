@@ -16,6 +16,10 @@ declare const Select: React.FC<
 export const MyApp = () => {
     const [val, setVal] = React.useState('op1');
     return (
-        <Select value={val} onChange={setVal} options={['op1', 'op2']} />
+        <Select
+            value={val}
+            onChange={setVal}
+            options={['op1', 'op2']}
+        />
     );
 };
