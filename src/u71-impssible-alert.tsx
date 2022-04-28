@@ -1,5 +1,5 @@
 declare const Alert: React.FC<{
-    type: 'success' | 'warning' | 'boolean';
+    type: 'success' | 'warning' | 'danger';
 }>;
 
 export const MyApp = () => {

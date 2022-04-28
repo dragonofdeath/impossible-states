@@ -8,11 +8,12 @@ export const useMyState = (): State & { fetch: () => void } => {
     const [state, setState] = React.useState<State>({ type: 'INITIAL' });
 
     const fetch = () => {
-        setState(() => ({ type: 'LOADING' }));
+        const requestId = Math.random();
+        setState(() => ({ type: 'LOADING', requestId }));
         return fetchStuff()
             .then((result) =>
-                setState((prevSate) => {
-                    return { type: 'READY', myData: result };
+                setState((prevState) => {
+                    return prevState;
                 })
             )
             .catch(() => setState({ type: 'ERROR', message: 'ups' }));

@@ -12,7 +12,7 @@ export let otherVar: number = neverVar;
 
 neverVar = otherVar;
 
-export type Union = number | never
-export type Intersection = number & never
+export type U = number | never
+export type I = number & never
 
 // never ~ 0

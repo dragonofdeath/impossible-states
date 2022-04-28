@@ -17,5 +17,5 @@ export function numerizeAll(value: unknown): number {
     }
     value;
 
-    return value;
+    return 0;
 }

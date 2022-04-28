@@ -1,4 +1,4 @@
- ```
+```
            _             _   _     _       _        _ _
           | |           | | | |   (_)     | |      | | |
  __      _| |__  _   _  | |_| |__  _ ___  | |_ __ _| | | __
@@ -13,8 +13,8 @@
          its title. I believe that it doesn't get enough exposure compared to
          its value
 
-       * Though there is some information about it but more in other languages, and
-         very little in typescript
+       * Though there is some information about it but more in other languages,
+         and very little in typescript
 
        * The core idea is to model your state/API's/or any other data in a way
          it would be impossible to do a mistake while using it. As the result

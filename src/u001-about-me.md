@@ -7,8 +7,11 @@
 
 ```--------------    Bio   --------------------
   name:        Vaidas Kublinskas
+
   in Wix:      (Forum FED team) for 1⅔ years
-  working on:  comments and reviews projects
+
+  working on:  comments and reviews products
+
   described by
   my peers as: typescript gourmet, vim addict, converted
                storybooker, state optimizer, enum h8er.

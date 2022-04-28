@@ -9,6 +9,7 @@ export const MyApp = () => {
     const [val, setVal] = React.useState('op1');
     return (
         <Select
+            multi
             value={val}
             onChange={(v) => setVal(v as string)}
             options={['op1', 'op2']}

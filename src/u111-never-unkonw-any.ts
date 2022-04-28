@@ -8,7 +8,7 @@
 */
 declare let anyVar: any;
 
-export let otherVar:number = anyVar;
+export let otherVar: number = anyVar;
 
 anyVar = otherVar;
 
