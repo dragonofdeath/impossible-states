@@ -8,6 +8,7 @@ specifiers:
   '@types/node': ^16.11.25
   '@types/react': ^17.0.39
   '@types/react-dom': ^17.0.11
+  '@xstate/react': ^3.0.0
   eslint-config-prettier: ^8.4.0
   eslint-plugin-prettier: ^4.0.0
   prettier: ^2.5.1
@@ -18,6 +19,7 @@ specifiers:
   typescript: 4.6.3
   variant: ^2.1.0
   web-vitals: ^2.1.4
+  xstate: ^4.32.0
 
 dependencies:
   '@testing-library/jest-dom': repo.dev.wixpress.com/@testing-library/jest-dom/5.16.2
@@ -27,6 +29,7 @@ dependencies:
   '@types/node': repo.dev.wixpress.com/@types/node/16.11.25
   '@types/react': repo.dev.wixpress.com/@types/react/17.0.39
   '@types/react-dom': repo.dev.wixpress.com/@types/react-dom/17.0.11
+  '@xstate/react': repo.dev.wixpress.com/@xstate/react/3.0.0_mbd65nlx5ek5cb6bsmdofvxnju
   eslint-config-prettier: repo.dev.wixpress.com/eslint-config-prettier/8.4.0
   eslint-plugin-prettier: repo.dev.wixpress.com/eslint-plugin-prettier/4.0.0_fuvvzj6blye5pok2l4ntsxmoj4
   prettier: repo.dev.wixpress.com/prettier/2.5.1
@@ -37,6 +40,7 @@ dependencies:
   typescript: repo.dev.wixpress.com/typescript/4.6.3
   variant: repo.dev.wixpress.com/variant/2.1.0
   web-vitals: repo.dev.wixpress.com/web-vitals/2.1.4
+  xstate: repo.dev.wixpress.com/xstate/4.32.0
 
 packages:
 
@@ -3222,6 +3226,29 @@ packages:
     dependencies:
       '@webassemblyjs/ast': repo.dev.wixpress.com/@webassemblyjs/ast/1.11.1
       '@xtuc/long': repo.dev.wixpress.com/@xtuc/long/4.2.2
+    dev: false
+
+  repo.dev.wixpress.com/@xstate/react/3.0.0_mbd65nlx5ek5cb6bsmdofvxnju:
+    resolution: {integrity: sha1-iI2abxKMcLYywYrVXx+FH2qwkro=, registry: http://npm.dev.wixpress.com/, tarball: https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@xstate/react/-/react-3.0.0.tgz}
+    id: repo.dev.wixpress.com/@xstate/react/3.0.0
+    name: '@xstate/react'
+    version: 3.0.0
+    peerDependencies:
+      '@xstate/fsm': ^2.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      xstate: ^4.31.0
+    peerDependenciesMeta:
+      '@xstate/fsm':
+        optional: true
+      xstate:
+        optional: true
+    dependencies:
+      react: repo.dev.wixpress.com/react/17.0.2
+      use-isomorphic-layout-effect: repo.dev.wixpress.com/use-isomorphic-layout-effect/1.1.2_udcsdvdzjr5ns727jqoeu7kyda
+      use-sync-external-store: repo.dev.wixpress.com/use-sync-external-store/1.1.0_react@17.0.2
+      xstate: repo.dev.wixpress.com/xstate/4.32.0
+    transitivePeerDependencies:
+      - '@types/react'
     dev: false
 
   repo.dev.wixpress.com/@xtuc/ieee754/1.2.0:
@@ -11589,6 +11616,33 @@ packages:
       punycode: repo.dev.wixpress.com/punycode/2.1.1
     dev: false
 
+  repo.dev.wixpress.com/use-isomorphic-layout-effect/1.1.2_udcsdvdzjr5ns727jqoeu7kyda:
+    resolution: {integrity: sha1-SXzvsT2GPWh7CEd9nloWStjBpvs=, registry: http://npm.dev.wixpress.com/, tarball: https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.1.2.tgz}
+    id: repo.dev.wixpress.com/use-isomorphic-layout-effect/1.1.2
+    name: use-isomorphic-layout-effect
+    version: 1.1.2
+    peerDependencies:
+      '@types/react': '*'
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+    dependencies:
+      '@types/react': repo.dev.wixpress.com/@types/react/17.0.39
+      react: repo.dev.wixpress.com/react/17.0.2
+    dev: false
+
+  repo.dev.wixpress.com/use-sync-external-store/1.1.0_react@17.0.2:
+    resolution: {integrity: sha1-M0PD/n9+QE23D4xoet9cFlLTToI=, registry: http://npm.dev.wixpress.com/, tarball: https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/use-sync-external-store/-/use-sync-external-store-1.1.0.tgz}
+    id: repo.dev.wixpress.com/use-sync-external-store/1.1.0
+    name: use-sync-external-store
+    version: 1.1.0
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: repo.dev.wixpress.com/react/17.0.2
+    dev: false
+
   repo.dev.wixpress.com/util-deprecate/1.0.2:
     resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=, registry: http://npm.dev.wixpress.com/, tarball: https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/util-deprecate/-/util-deprecate-1.0.2.tgz}
     name: util-deprecate
@@ -12247,6 +12301,12 @@ packages:
     resolution: {integrity: sha1-Bg/hvLf5x2/ioX24apvDq4lCEMs=, registry: http://npm.dev.wixpress.com/, tarball: https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/xmlchars/-/xmlchars-2.2.0.tgz}
     name: xmlchars
     version: 2.2.0
+    dev: false
+
+  repo.dev.wixpress.com/xstate/4.32.0:
+    resolution: {integrity: sha1-SbkpOG8EQ0PZ02CP43GCcXjQhtQ=, registry: http://npm.dev.wixpress.com/, tarball: https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/xstate/-/xstate-4.32.0.tgz}
+    name: xstate
+    version: 4.32.0
     dev: false
 
   repo.dev.wixpress.com/xtend/4.0.2:
