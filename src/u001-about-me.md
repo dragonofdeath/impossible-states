@@ -8,8 +8,8 @@
 ```--------------    Bio   --------------------
   name:        Vaidas Kublinskas
 
-  in Wix:      (Forum FED team) for 1⅔ years
-
+  in Web:      on and off from 2004
+  in Wix:      for 1⅘ years
   working on:  comments and reviews products
 
   described by

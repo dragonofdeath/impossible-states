@@ -1,5 +1,3 @@
-# SHORT ADD OF OUR TEAMS PRODUCTS
+# PLEASE OPEN THIS URL
 
-* WixForum
-* WixComments
-* WixReviews
+http://wix.to/o8tah5h
