@@ -10,7 +10,7 @@
 
   in Web:      on and off from 2004
   in Wix:      for 1⅘ years
-  working on:  comments and reviews products
+  working on:  comments and reviews products (forum team)
 
   described by
   my peers as: typescript gourmet, vim addict, converted
