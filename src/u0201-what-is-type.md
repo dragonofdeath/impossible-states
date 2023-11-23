@@ -2,4 +2,4 @@
 
 *IT'S A SET OF VALUES!*
 
-type boolean = ? 
+type boolean = ?

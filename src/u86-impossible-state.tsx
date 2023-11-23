@@ -11,8 +11,8 @@ export const useMyState = (): State & { fetch: () => void } => {
         setState(() => ({ type: 'LOADING' }));
         return fetchStuff()
             .then((result) =>
-                setState((prevState) => {
-                    return prevState;
+                setState((prevSate) => {
+                    return { type: 'READY', myData: result };
                 })
             )
             .catch(() => setState({ type: 'ERROR', message: 'ups' }));

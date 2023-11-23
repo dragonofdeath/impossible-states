@@ -7,20 +7,19 @@
  |_| \_|\____/  (_) (_) (_) (_) (_) (_) (_) (_) (_) (_) (_)
 
 ```
-# String litterals
-  + no boilerplate
+# String literals
+  + safe with diamond dependencies (structural type)
   + type safe
   + autocomplete
   + easy to parse
-  + safe with dimond dependencies (structural type)
   + no hidden runtime magic
-  - no name refactoring
+  + name refactoring already here
+  - having const object and types is a bit clunky
 
 # Enums
-  - boilerplaty
+  - problematic with diamond dependencies (nominal type)
   + type safe
   + autocomplete
   - parsing only with the help of cast
-  - problematic with dimond dependencies (nominal type)
-  - there is "hidden" runtime object atached to it
+  - there is "hidden" runtime object attached to it, import unpredictable
   + name refactoring

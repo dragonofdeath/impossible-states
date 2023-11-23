@@ -1,4 +1,4 @@
-# INTESECTION MEANS PICKING COMMON VALUES from both sets
+# INTERSECTION MEANS PICKING COMMON VALUES from both sets
 
 type A = { a: number };
 type B = { b: boolean };

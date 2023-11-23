@@ -16,3 +16,6 @@ export type U = number | any;
 export type I = number & any;
 
 // any ~ 🍌
+
+declare let neverVar: never;
+neverVar = anyVar;

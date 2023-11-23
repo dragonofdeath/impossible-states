@@ -1,11 +1,11 @@
-#PART2: "HOW ALL OF THIS IS USEFUL?" OR "MAKING IMPOSSIBLE STATES IMPOSSIBLE"
+# PART2: "HOW ALL OF THIS IS USEFUL?" OR "MAKING IMPOSSIBLE STATES IMPOSSIBLE"
 
 ## Unions helps to structure the state with bigger precision, thus limiting invalid variations
 
-## Api's are more readable as the structure gives you better understanding of the functionality
+## APIs are more readable as the structure gives you better understanding of the functionality
 
 *Pros*
-* Better API's
+* Better APIs
 * Better state management
 * Encoding business rules into type system
 * Making mini DSLs for control flows

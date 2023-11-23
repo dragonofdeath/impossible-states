@@ -15,4 +15,4 @@ unknownVar = otherVar;
 export type U = number | unknown;
 export type I = number & unknown;
 
-// unknow ~ infinity
+// unknown ~ infinity

@@ -13,7 +13,7 @@ export const MyApp = () => {
             {isInitial && 'Click to fetch'}
             {myData && <MyDataView data={myData} />}
             {isLoading && <Spinner />}
-            {/* does initial resets flag on load start/reoload ?*/}
+            {/* does initial resets flag on load start/reload ?*/}
         </div>
     );
 };

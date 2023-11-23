@@ -16,7 +16,7 @@
        * Though there is some information about it but more in other languages,
          and very little in typescript
 
-       * The core idea is to model your state/API's/or any other data in a way
+       * The core idea is to model your state/APIs/or any other data in a way
          it would be impossible to do a mistake while using it. As the result
          you get:
            + less variations/less complexity to think about

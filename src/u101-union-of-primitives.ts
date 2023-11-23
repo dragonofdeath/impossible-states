@@ -17,7 +17,7 @@ export function numerize(value: Primitive): number {
     if (typeof value === 'boolean') {
         return value ? 1 : 0;
     }
-    value; // Primive - number - string - boolean = ?;
+    value; // Primitive - number - string - boolean = ?;
 
     return 0;
 }

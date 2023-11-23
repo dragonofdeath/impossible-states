@@ -9,7 +9,7 @@
   name:        Vaidas Kublinskas
 
   in Web:      on and off from 2004
-  in Wix:      for 1⅘ years
+  in Wix:      for 3+ years
   working on:  comments and reviews products (forum team)
 
   described by

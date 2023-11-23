@@ -10,6 +10,6 @@ export function numerize(obj: U): number {
     if ('a' in obj) {
         return obj.a;
     }
-    obj; // U - A = Type B
+    obj; // U - A = ?
     return obj.b.length;
 }
