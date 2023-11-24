@@ -1,6 +1,6 @@
 # PART2: "HOW ALL OF THIS IS USEFUL?" OR "MAKING IMPOSSIBLE STATES IMPOSSIBLE"
 
-The idea is not new, but not popular enough in typescript community.
+The idea is not new, but still not popular enough in typescript community.
 
 Nice videos with more thorough examples in different languages but totally doable in typescript!!!!!
 

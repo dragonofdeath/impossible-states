@@ -1,8 +1,8 @@
 # PART2: "HOW ALL OF THIS IS USEFUL?" OR "MAKING IMPOSSIBLE STATES IMPOSSIBLE"
 
-## Unions helps to structure the state with bigger precision, thus limiting invalid variations
+Unions helps to structure the state with bigger precision, thus limiting invalid variations
 
-## APIs are more readable as the structure gives you better understanding of the functionality
+APIs are more readable as the structure gives you better understanding of the functionality
 
 *Pros*
 * Better APIs

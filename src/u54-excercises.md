@@ -1,0 +1,7 @@
+
+# PRACTICE
+
+before part 2, exercises:
+[simplify 1](https://www.typescriptlang.org/play?ssl=23&ssc=9&pln=1&pc=1#code/PTAEGUEsFsAcBtIDMCeoAuALSBnDLYBTAKHQMNAGEB7ORAYwEN1CATUAXmNB9AB9QAb269RPMkQBcoAOToAjDIDcIsbyTzpOdACdIAOwDmKtaKQAmLboPHVppAGYreoydPjNofQFdoAI0IdN1EAXzsBYXdxcmk5c2U7NQ1nG2D7S1BtF1so0EcU10SxdAyff0C0njDRCKLRCUJY9AcE3OTM60K2jKzUuvUnDuzK4sGygKCikJUioA)
+[simplify 2](https://www.typescriptlang.org/play?#code/PTAEGUEsFsAcBtIDMCeoAuALSBnDLYBTAKHQMNAGEB7ORAYwEN1CATUAXmNB9AB9QACgDe3XuJ5IAjAC5QOdACdIAOwDmAbjHiAvqABkoYaCQAmOQuXrQew8aQBmC0tVqbBoyYAszq250AlNr8Qvay8i7Wtp5mvq7udo5xUR72PqAqAK7QAEaEijYBGkA)
+

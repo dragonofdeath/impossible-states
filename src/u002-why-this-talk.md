@@ -1,4 +1,3 @@
-```
            _             _   _     _       _        _ _
           | |           | | | |   (_)     | |      | | |
  __      _| |__  _   _  | |_| |__  _ ___  | |_ __ _| | | __
@@ -7,7 +6,6 @@
    \_/\_/ |_| |_|\__, |  \__|_| |_|_|___/  \__\__,_|_|_|\_\
                   __/ |
                  |___/
-```
 
        * The main goal of this presentation is to spread the idea expressed in
          its title. I believe that it doesn't get enough exposure compared to
